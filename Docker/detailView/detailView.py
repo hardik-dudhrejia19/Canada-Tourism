@@ -38,7 +38,7 @@ def search(id):
     
 @app.route('/setAWS') 
 def serAwsKey():
-    print('set')
+    print('set.')
     aws_access_key_id =request.headers['aws_access_key_id']
     aws_secret_access_key =request.headers['aws_secret_access_key']
     aws_session_token =request.headers['aws_session_token']
